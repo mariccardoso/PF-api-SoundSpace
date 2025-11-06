@@ -7,8 +7,8 @@ import MusicRouter from "./musics.routes.js";
 const router = express.Router();
 
 // Rotas públicas
-router.use("/songs", SingerRouter);
-router.use("/musics", MusicRouter);
+router.use("/cantores", SingerRouter);
+router.use("/musicas", MusicRouter);
 
 
 export default router;

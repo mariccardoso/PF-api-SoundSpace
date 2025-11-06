@@ -1,5 +1,5 @@
 import express from "express";
-import SingerController from "../controllers/music.controller.js";
+import SingerController from "../controllers/singer.controller.js";
 
 const SingerRouter = express.Router();
 
